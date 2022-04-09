@@ -3,18 +3,33 @@ main{
     margin: 0 auto;
     // =======================BANER ====================
     .baner{
-        background-image: url(../images/baner.jpeg);
+       
         height: 30vw;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        overflow: hidden;
+        .baner-img{
+            height:8vw;
+            a{
+                img{
+                height:30vw;
+                width: 100%;
+                transition: 0.5s;
+                &:hover{
+                    transform: scale(1.05);
+                }
+                }                
+            }
+        }
         .baner-text{
-            height: 100%;
             width: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            position: relative;
+            z-index: 2;
             a{
                 display: flex;
                 justify-content: center;
