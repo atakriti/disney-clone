@@ -212,21 +212,24 @@ main{
 
             .img-container{
                 overflow: hidden;
-
+                display: flex;
+                flex-direction: column;
                 .shop-img{
                    position: relative;
                    z-index: 1;
-                   height: 13vw;
+                   height: 10vw;
                    display: flex;
                    width: 100%;
                    
                     a{
                         display: flex;
-                        height: 30vw;
                         width: 100%;
+
                         img{
                             width: 100%;
                             transition: 0.5s;
+                         height: 27vw;
+
                             &:hover{
                                 transform: scale(1.05);
                             }
@@ -245,7 +248,7 @@ main{
                     // align-items: center;
                     justify-content: center;
                     position: relative;
-                    z-index: 3;
+                    z-index:1;
                      margin-bottom: 10%;
                     
                     a{
