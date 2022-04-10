@@ -33,3 +33,25 @@ let disneyParks = () => {
         parksList.style.display = "none"
     }
 }
+// =============== hamburger =================
+let menu = () => {
+    let hamburger = document.getElementById("hamburger")
+    if (hamburger.style.display === "none") {
+        hamburger.style.display = "block"
+        // hamburger.style.transform = "translateX(0%)"
+        hamburger.style.animationName = "hamburgerAnimation"
+    } else {
+        hamburger.style.display = "none"
+       
+
+    }
+}
+// ==========
+let hamburgerList = () => {
+    let hamburger = document.getElementById("hamburger")
+    if (hamburger.style.display === "block") {
+        hamburger.style.display = "none"
+    } else {
+        hamburger.style.display = "block"
+    }
+}

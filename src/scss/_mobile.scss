@@ -4,6 +4,10 @@
         padding: 2%;
         display: flex;
         justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 4;
+        background-color: rgba(255, 255, 255, 0.829);
         .logo{
             width: 20%;            
         }
@@ -27,6 +31,7 @@
     // =============== baner =============
     main{
         width: 100%;
+        position: relative;
         .baner{
             background-color: #030c40;
 
@@ -332,8 +337,43 @@
                 }
             }
         }
-    }
-    // ================== footer ==========
+        // ===================== Hamburger =============
+        #hamburger{
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+              bottom: 0;
+            z-index: 2;
+            background-color: rgba(0, 0, 0, 0.705);
+            padding: 4%;
+            
+            animation: hamburgerAnimation 2s forwards;
+            
+            ul{
+                display: flex;
+                flex-direction: column;
+                 position: sticky;
+                  top:8%;
+                  z-index: 2;
+                
+
+                li{
+                    list-style: none;
+
+                    a{
+                        text-decoration: none;
+                         color: white;
+                        display: flex;
+                        justify-content: flex-end;
+                        padding: 5%;
+                        font-weight: bold;
+                        font-size: 5vw;
+                    }
+                }
+            }
+        }
+         // ================== footer ==========
     footer{
         width: 100%;
         .register{
@@ -380,5 +420,20 @@
                 transform: scale(1.05);
             }
         }
+        // ==========
+        @keyframes hamburgerAnimation {
+            from{
+                transform: translateX(100%);
+            }
+            to{
+                transform: translateX(0);
+
+            }
+        } 
+        // ============
+        
     }
+        
+    }
+   
 }

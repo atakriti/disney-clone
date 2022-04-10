@@ -13,7 +13,7 @@
     <div class="logo">
         <a href="#"><img src="./images/logo.png" alt=""></a>
     </div>
-    <div class="mobile-menu"><a ><i class="fa-solid fa-bars-staggered"></i></a></div>
+    <div onclick="menu()" class="mobile-menu"><a ><i class="fa-solid fa-bars-staggered"></i></a></div>
      <ul>
          <li onclick="disney()" class="disney-list"><a href="#">DISNEY+</a>
         <div id="drop-list-disney">
@@ -49,6 +49,17 @@
      
    </header>
    <main>
+       <!-- ================== Hamburger =============== -->
+       <div id="hamburger">
+           <ul>
+               <li><a onclick="hamburgerList()" href="#neu">Neu auf Disney</a></li>
+               <li><a onclick="hamburgerList()" href="#shop">Shop</a></li>
+               <li><a onclick="hamburgerList()" href="#filme">Filme</a></li>
+               <li><a onclick="hamburgerList()" href="#live">Live-Show</a></li>
+               <li><a onclick="hamburgerList()" href="#parks">Parks</a></li>
+               <li><a onclick="hamburgerList()" href="#about">About Us</a></li>
+           </ul>
+       </div>
        <!-- ============ BANER ============ -->
        <div class="baner">
            <div class="baner-img">
@@ -83,7 +94,7 @@
            </div>
        </div>
        <!-- ================= Neu auf Disney =========== -->
-       <div class="neu-auf-disney">
+       <div id="neu" class="neu-auf-disney">
            <p class="neu-auf-disney-title">–– Neu auf Disney+ ––</p>
            <div class="three-divs">
                <!-- one -->
@@ -119,7 +130,7 @@
            <h3>* EUR 8,99 pro Monat bzw. EUR 89,90 pro Jahr.</h3>
        </div>
        <!-- =========SHOP =========== -->
-       <div class="shop">
+       <div id="shop" class="shop">
         <p class="shop-title">–– Shop ––</p>
            
                <div class="img-container">
@@ -137,7 +148,7 @@
        </div>
        </div>
        <!-- =============== filme ============= -->
-       <div class="filme">
+       <div id="filme" class="filme">
            <p>–– Filme ––</p>
            <div class="filme-images">
                <div class="img">
@@ -155,7 +166,7 @@
            </div>
        </div>
        <!-- ============ Live Shows =========== -->
-       <div class="live-shows">
+       <div id="live" class="live-shows">
            <p class="live-shows-title">–– Live Shows ––</p>
            <div class="images-container">
                <!-- left -->
@@ -187,7 +198,7 @@
            </div>
        </div>
        <!-- ============== PARKS ================== -->
-       <div class="parks">
+       <div id="parks" class="parks">
            <p class="parks-title">–– Parks ––</p>
            <div class="parks-container">
                <!-- left -->
@@ -214,40 +225,41 @@
                </div>
            </div>
        </div>
+       <!-- ====================== FOOTER ==================== -->
+   <footer id="about">
+    <div class="register">
+        <a href="#">Registriere dich hier und werde teil der Disney Familie <i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <!-- ================= footer-part ================ -->
+    <div class="footer-part">
+        <p>Folge Disney auf:</p>
+        <div class="links">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+     </div>
+     <a class="footer-logo" href="#"><img src="./images/logo.png" alt=""></a>
+     <div class="infos">
+         <a href="#">Hilfe</a>
+         <a href="#">Seitenverzeichnis</a>
+         <a href="#">Nutzungsbedigungen</a>
+         <a href="#">EU Datenschutzhinweis</a>
+         <a href="#">Datenschutzerklärung</a>
+         <a href="#">Cookie Richtlinie</a>
+         <a href="#">Ihre Cookie Einstellungen verwalten</a>
+         <a href="#">Interessenbezogene Werbung</a>
+         <a href="#">Impressum</a>
+         <a href="#">Disney Media Sales and Partnerships</a>
+         <a href="#">The Walt Disney Company</a>
+     </div>
+     <small>
+         © Disney © Disney•Pixar © & ™ Lucasfilm LTD © Marvel. Alle Rechte vorbehalten
+     </small>
+    </div>
+</footer>
    </main>
-   <!-- ====================== FOOTER ==================== -->
-   <footer>
-       <div class="register">
-           <a href="#">Registriere dich hier und werde teil der Disney Familie <i class="fa-solid fa-envelope"></i></a>
-       </div>
-       <!-- ================= footer-part ================ -->
-       <div class="footer-part">
-           <p>Folge Disney auf:</p>
-           <div class="links">
-               <i class="fa-brands fa-facebook"></i>
-               <i class="fa-brands fa-instagram"></i>
-               <i class="fa-brands fa-twitter"></i>
-               <i class="fa-brands fa-youtube"></i>
-        </div>
-        <a class="footer-logo" href="#"><img src="./images/logo.png" alt=""></a>
-        <div class="infos">
-            <a href="#">Hilfe</a>
-            <a href="#">Seitenverzeichnis</a>
-            <a href="#">Nutzungsbedigungen</a>
-            <a href="#">EU Datenschutzhinweis</a>
-            <a href="#">Datenschutzerklärung</a>
-            <a href="#">Cookie Richtlinie</a>
-            <a href="#">Ihre Cookie Einstellungen verwalten</a>
-            <a href="#">Interessenbezogene Werbung</a>
-            <a href="#">Impressum</a>
-            <a href="#">Disney Media Sales and Partnerships</a>
-            <a href="#">The Walt Disney Company</a>
-        </div>
-        <small>
-            © Disney © Disney•Pixar © & ™ Lucasfilm LTD © Marvel. Alle Rechte vorbehalten
-        </small>
-       </div>
-   </footer>
+   
    <script src="./javaScript/main.js"></script>
 </body>
 </html>
