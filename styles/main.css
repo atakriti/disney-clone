@@ -715,7 +715,7 @@ main footer .footer-part small {
   }
   main .baner .baner-img .baner-mobile img {
     width: 100%;
-    animation: baner 2s alternate infinite ease-in-out;
+    animation: baner 1s alternate infinite ease-in-out;
   }
   main .baner .baner-text {
     position: static;
@@ -775,6 +775,9 @@ main footer .footer-part small {
   main .neu-auf-disney .three-divs div:nth-child(3) {
     width: 100%;
   }
+  main .neu-auf-disney .three-divs div:nth-child(3) span {
+    padding: 3%;
+  }
   main .neu-auf-disney .three-divs div span {
     align-items: center;
     height: auto;
@@ -783,6 +786,8 @@ main footer .footer-part small {
   }
   main .neu-auf-disney .three-divs div span p {
     font-size: 4vw;
+    width: 100%;
+    text-align: center;
   }
   main .neu-auf-disney .three-divs div span small {
     font-size: 3.4vw;
@@ -826,7 +831,7 @@ main footer .footer-part small {
   main .shop .img-container .shop-img .shop-mobile img {
     width: 100%;
     transition: 0.5s;
-    animation: baner 2s alternate infinite ease-in-out;
+    animation: baner 1s alternate infinite ease-in-out;
   }
   main .shop .img-container .shop-img .shop-mobile img:hover {
     transform: scale(1.05);
@@ -868,7 +873,7 @@ main footer .footer-part small {
     margin-bottom: 5%;
   }
   main .filme .filme-images .img div a img {
-    animation: baner 2s alternate infinite ease-in-out;
+    animation: baner 1s alternate infinite ease-in-out;
   }
   main .filme .filme-images .img p {
     font-size: 4vw;
@@ -890,7 +895,7 @@ main footer .footer-part small {
     margin-bottom: 1%;
   }
   main .live-shows .images-container .left .left-img a img {
-    animation: baner 2s alternate infinite ease-in-out;
+    animation: baner 1s alternate infinite ease-in-out;
   }
   main .live-shows .images-container .left .left-text a img {
     width: 100%;
@@ -906,7 +911,7 @@ main footer .footer-part small {
     margin-bottom: 1%;
   }
   main .live-shows .images-container .right .right-up .right-up-img a img {
-    animation: baner 2s alternate infinite ease-in-out;
+    animation: baner 1s alternate infinite ease-in-out;
   }
   main .live-shows .images-container .right .right-up .right-up-text p {
     font-size: 4.5vw;
@@ -915,7 +920,7 @@ main footer .footer-part small {
     font-size: 4vw;
   }
   main .live-shows .images-container .right .right-bottom .right-bottom-img a img {
-    animation: baner 2s alternate infinite ease-in-out;
+    animation: baner 1s alternate infinite ease-in-out;
   }
   main .live-shows .images-container .right .right-bottom .right-bottom-text p {
     font-size: 4.5vw;
@@ -937,7 +942,7 @@ main footer .footer-part small {
     width: 100%;
   }
   main .parks .parks-container div .park-img a img {
-    animation: baner 2s alternate infinite ease-in-out;
+    animation: baner 1s alternate infinite ease-in-out;
   }
   main .parks .parks-container div .park-text {
     align-items: center;
@@ -962,7 +967,7 @@ main footer .footer-part small {
     background-color: rgba(0, 0, 0, 0.705);
     padding: 13% 4% 4% 4%;
     overflow: scroll;
-    animation: hamburgerAnimation 2s forwards;
+    animation: hamburgerAnimation 1s forwards;
   }
   main #hamburger ul {
     display: flex;
