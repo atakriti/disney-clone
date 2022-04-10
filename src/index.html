@@ -8,17 +8,42 @@
     <link rel="stylesheet" href="./styles/main.css">
     <title>Disney-Clone</title>
 </head>
-<body>
+<body onclick="main()">
    <header>
     <div class="logo">
         <a href="#"><img src="./images/logo.png" alt=""></a>
     </div>
     <div class="mobile-menu"><a ><i class="fa-solid fa-bars"></i></a></div>
      <ul>
-         <li><a href="#">DISNEY+</a></li>
+         <li onclick="disney()" class="disney-list"><a href="#">DISNEY+</a>
+        <div id="drop-list-disney">
+            <ul>
+            <li> <a href="#">Mehr Informationen</a>  </li>
+            <li><a href="#">Wir stellen vor:Disney+</a></li>
+            <li><a href="#">Aktuelle Highlights auf Disney+</a></li>
+            <li><a href="#">Marvel auf Disney+</a></li>
+            </ul>
+        </div>
+        </li>
          <li><a href="#">SHOP</a></li>
-         <li><a href="#">FILME</a></li>
-         <li><a href="#">PARKS</a></li>
+         <li onclick="disneyFilme()" class="filme-list"><a href="#">FILME</a>
+        <div id="drop-list-filme">
+            <ul>
+                <li><a href="#">Übersicht</a></li>
+                <li><a href="#">Lightyear</a></li>
+                <li><a href="#">Rot</a></li>
+                <li><a href="#">Filme von Marvel</a></li>
+            </ul>
+        </div>
+    </li>
+         <li onclick="disneyParks()" class="parks-list"><a href="#">PARKS</a>
+        <div id="drop-list-parks">
+            <ul>
+                <li><a href="#">Disneyland® PARIS</a></li>
+                <li><a href="#">Walt Disney World</a></li>
+            </ul>
+        </div>
+        </li>
          <li><a href="#">TV SENDER</a></li>
      </ul>
    </header>
@@ -220,5 +245,6 @@
         </small>
        </div>
    </footer>
+   <script src="./javaScript/main.js"></script>
 </body>
 </html>

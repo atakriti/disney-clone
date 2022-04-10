@@ -3,7 +3,7 @@ header{
     margin: 0 auto;
     display: flex;
     align-items: center;
-    padding: 0.5%;
+     padding: 0.5%;
     // =========Logo ===========
     .logo{
         width: 7%;
@@ -21,12 +21,56 @@ header{
         justify-content: space-around;
         align-items: center;
         width: 30%;
+        .disney-list{
+            position: relative;
+            
+           
+        }
+        #drop-list-disney{
+            background-color: rgb(41, 41, 41);
+            position: absolute;
+            z-index: 3;
+            top: 160%;
+            left: 0;
+            width: 13vw;
+            display: flex;
+            flex-direction: column;
+            display: none;
+            ul{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                li{
+                   width: 100%;
+                   cursor: pointer;
+                   display: flex;
+                   justify-content: flex-start;
+                    a{
+                        color: white;
+                        display: flex;
+                        padding: 6% 0;
+                        font-size: calc($fs - 0.1vw);
+                       
+                    }
+                    &:hover{
+                        a{
+                            color: $btn-bg;
+                        transition: 0.5s;
+                        }
+                    }
+                }
+            }
+        }
         li{
             list-style: none;
            display: flex;
            justify-content: center;
            align-items: center;
            padding: 1%;
+          
+          
+           
 
             a{
                
@@ -34,6 +78,94 @@ header{
                 font-size: $fs;
                 font-weight: bold;
                 color: black;
+                &:hover{
+                    color: $btn-bg;
+                    transition: 0.5s;
+                }
+            }
+        }
+        // =========== file-list ==============
+        .filme-list{
+            position: relative;
+            
+           
+        }
+        #drop-list-filme{
+            background-color: rgb(41, 41, 41);
+            position: absolute;
+            z-index: 3;
+            top: 160%;
+            left: 0;
+            width: 13vw;
+            display: flex;
+            flex-direction: column;
+             display: none;
+            ul{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                li{
+                   width: 100%;
+                   cursor: pointer;
+                   display: flex;
+                   justify-content: flex-start;
+                    a{
+                        color: white;
+                        display: flex;
+                        padding: 6% 0;
+                        font-size: calc($fs - 0.1vw);
+                       
+                    }
+                    &:hover{
+                        a{
+                            color: $btn-bg;
+                        transition: 0.5s;
+                        }
+                    }
+                }
+            }
+        }
+        // ================= PARK LIST ==============
+        .parks-list{
+            position: relative;
+            
+           
+        }
+        #drop-list-parks{
+            background-color: rgb(41, 41, 41);
+            position: absolute;
+            z-index: 3;
+            top: 160%;
+            left: 0;
+            width: 13vw;
+            display: flex;
+            flex-direction: column;
+             display: none;
+            ul{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                li{
+                   width: 100%;
+                   cursor: pointer;
+                   display: flex;
+                   justify-content: flex-start;
+                    a{
+                        color: white;
+                        display: flex;
+                        padding: 6% 0;
+                        font-size: calc($fs - 0.1vw);
+                       
+                    }
+                    &:hover{
+                        a{
+                            color: $btn-bg;
+                        transition: 0.5s;
+                        }
+                    }
+                }
             }
         }
     }
