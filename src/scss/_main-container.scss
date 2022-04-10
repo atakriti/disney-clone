@@ -1,6 +1,7 @@
 main{
     width: 85%;
     margin: 0 auto;
+    background-color: $gray-light;
     // =======================BANER ====================
     .baner{
        
@@ -60,7 +61,7 @@ main{
     }
     // =============== Two card part 1 =================
     .card-p1{
-        background-color: $gray-light;
+        // background-color: $gray-light;
         display: flex;
         justify-content: space-between;
         padding: 2% 5%;
@@ -198,8 +199,9 @@ main{
     }
     // ============ SHOP ==============
     .shop{
-        background-color:$gray-light ;
-        padding: 2% 4% 4% 4%;
+        // background-color:$gray-light ;
+        padding: 2% 5%;
+
         
 
         .shop-title{
@@ -270,8 +272,162 @@ main{
                         font-size: calc($fs - 0.1vw);
                     }
                 }
+            }          
+    }
+
+    // ================== filme =========
+    .filme{
+        padding: 2% 5%;
+
+        p{
+            font-size: calc($fs + 0.6vw);
+            text-align: center;
+        }
+        .filme-images{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 35%;
+            .img{
+                width: 49%;
+                  height:22vw;
+                overflow: hidden;
+                div{
+                overflow: hidden;
+
+                    a{
+                        display: flex;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            transition: 0.5s;
+                            &:hover{
+                                transform: scale(1.05);
+                            }
+                        }
+                    }
+                }
+                p{
+                    font-size: $fs;
+                    margin-top: 3%;
+                    text-align: left;
+                }
+                
             }
-           
-        
+        }
+    }
+    // ================ Live Shows ============
+    .live-shows{
+        padding: 2% 5%;
+
+        .live-shows-title{
+            font-size: calc($fs + 0.4vw);
+            text-align: center;
+            margin: 2% 0;
+        }
+        .images-container{
+            display: flex;
+            justify-content: space-between;
+            .left{
+                position: relative;
+               width: 49%;
+
+                .left-img{
+                    height: 100%;
+                    a{
+                        display: flex;
+                        height: 100%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            
+                            
+                        }
+                    }
+                }
+                .left-text{
+                    position:absolute;
+                    z-index: 2;
+                    bottom: 0;                  
+                    text-align: center;
+                    width: 100%;
+                    padding: 6%;
+                    a{
+                        display: flex;
+                        justify-content: center;
+
+                        img{
+                            width: 60%;
+                        }
+                    }
+                    h3{
+                        font-size: $fs;
+                        color: white;
+                    }
+                }
+            }
+            .right{
+                width: 49%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 1vw 0;
+                .right-up{
+                    position: relative;
+                    .right-up-img{
+                        a{
+                            display: flex;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .right-up-text{
+                        position: absolute;
+                        right: 0;
+                        top: 50%;
+                        padding-right: 5%;
+                        text-align: right;
+                        p{
+                            color: white;
+                            font-size: calc($fs + 0.4vw);
+                            margin-bottom: 4%;
+                        }
+                        h3{
+                            color: white;
+                            font-size: $fs;
+                        }
+                    }
+                }
+                .right-bottom{
+                    position: relative;
+                    .right-bottom-img{
+                        a{
+                            display: flex;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .right-bottom-text{
+                        position: absolute;
+                        left: 0;
+                        top: 50%;
+                        padding-left: 5%;
+                        text-align: left;
+                        p{
+                            color: white;
+                            font-size: calc($fs + 0.4vw);
+                            margin-bottom: 4%;
+                        }
+                        h3{
+                            color: white;
+                            font-size: $fs;
+                        }
+                    }
+                    
+                }
+            }
+        }
     }
 }
