@@ -165,6 +165,7 @@ main .baner .baner-img .baner-desktop {
 }
 main .baner .baner-img .baner-desktop img {
   width: 100%;
+  height: 100%;
   transition: 0.5s;
 }
 main .baner .baner-img .baner-desktop img:hover {
@@ -504,6 +505,7 @@ main .live-shows .images-container .right .right-up .right-up-img a {
 }
 main .live-shows .images-container .right .right-up .right-up-img a img {
   width: 100%;
+  height: 100%;
   transition: 0.5s;
 }
 main .live-shows .images-container .right .right-up .right-up-img a img:hover {
@@ -536,6 +538,7 @@ main .live-shows .images-container .right .right-bottom .right-bottom-img a {
 }
 main .live-shows .images-container .right .right-bottom .right-bottom-img a img {
   width: 100%;
+  height: 100%;
   transition: 0.5s;
 }
 main .live-shows .images-container .right .right-bottom .right-bottom-img a img:hover {
@@ -654,6 +657,7 @@ main footer .footer-part .footer-logo {
 }
 main footer .footer-part .footer-logo img {
   width: 100%;
+  height: 100%;
 }
 main footer .footer-part .infos {
   display: flex;
@@ -892,7 +896,7 @@ main footer .footer-part small {
   }
   main .live-shows .images-container .left {
     width: 100%;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
   }
   main .live-shows .images-container .left .left-img a img {
     animation: baner 1s alternate infinite ease-in-out;
@@ -905,10 +909,9 @@ main footer .footer-part small {
   }
   main .live-shows .images-container .right {
     width: 100%;
-    gap: 0;
   }
   main .live-shows .images-container .right .right-up {
-    margin-bottom: 1%;
+    margin-bottom: 2%;
   }
   main .live-shows .images-container .right .right-up .right-up-img a img {
     animation: baner 1s alternate infinite ease-in-out;
@@ -992,14 +995,12 @@ main footer .footer-part small {
     font-size: 3vw;
     padding: 3% 1%;
   }
-  main footer .footer-part {
-    gap: 3vw 0;
-  }
   main footer .footer-part p {
     font-size: 3vw;
   }
   main footer .footer-part .links {
     width: 30%;
+    margin: 4% 0;
   }
   main footer .footer-part .links i {
     font-size: 3vw;
@@ -1010,12 +1011,11 @@ main footer .footer-part small {
   main footer .footer-part .infos {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 3%;
   }
   main footer .footer-part .infos a {
     display: flex;
-    margin-bottom: 3%;
     font-size: 3vw;
+    margin: 2%;
   }
   main footer .footer-part small {
     font-size: 2vw;
