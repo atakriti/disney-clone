@@ -39,6 +39,7 @@
                     width: 100%;
                     img{
                         width: 100%;
+                        animation: baner 2s alternate infinite ease-in-out;
                     }
 
                 }
@@ -98,6 +99,7 @@
             .neu-auf-disney-title{
                 font-size: calc($mo-fs + 1vw);
                 font-weight: bold;
+                padding: 3% 0;
             }
             .three-divs{
                 flex-wrap: wrap;
@@ -157,6 +159,18 @@
                     }
                     .shop-mobile{
                         display: block;
+                        width: 100%;
+
+                        img{
+                            width: 100%;
+                            transition: 0.5s;
+                            animation: baner 2s alternate infinite ease-in-out;
+
+
+                            &:hover{
+                                transform: scale(1.05);
+                            }
+                        }
                     }
 
                 }
@@ -167,7 +181,7 @@
                     background-color: white;
                     padding: 2%;
                     a{
-                        width: 100%;
+                        width: 80%;
                     }
                     p{
                         font-size: $mo-fs;
@@ -198,6 +212,13 @@
                     height: auto;
                     width: 100%;
                     margin-bottom: 5%;
+                    div{
+                        a{
+                            img{
+                                animation: baner 2s alternate infinite ease-in-out;
+                            }
+                        }
+                    }
                     p{
                         font-size: $mo-fs;
                         text-align: center;
@@ -219,6 +240,13 @@
                 .left{
                     width: 100%;
                     margin-bottom: 1%;
+                    .left-img{
+                        a{
+                            img{
+                                animation: baner 2s alternate infinite ease-in-out;
+                            }
+                        }
+                    }
                     .left-text{
                         a{
                             img{
@@ -235,6 +263,13 @@
                     gap: 0;
                     .right-up{
                         margin-bottom: 1%;
+                        .right-up-img{
+                            a{
+                                img{
+                                    animation: baner 2s alternate infinite ease-in-out;
+                                }
+                            }
+                        }
                         .right-up-text{
                             p{
                                 font-size: calc($mo-fs + 0.5vw);
@@ -245,6 +280,13 @@
                         }
                     }
                     .right-bottom{
+                        .right-bottom-img{
+                            a{
+                                img{
+                                    animation: baner 2s alternate infinite ease-in-out;
+                                }
+                            }
+                        }
                         .right-bottom-text{
                             p{
                                 font-size: calc($mo-fs + 0.5vw);
@@ -268,6 +310,13 @@
                 flex-wrap: wrap;
                 div{
                     width: 100%;
+                    .park-img{
+                        a{
+                            img{
+                                animation: baner 2s alternate infinite ease-in-out;
+                            }
+                        }
+                    }
                     .park-text{
                         align-items: center;
                         p{
@@ -321,6 +370,14 @@
             }
             small{
                 font-size: calc($mo-fs - 2vw);
+            }
+        }
+        @keyframes baner {
+            from{
+                transform: scale(1);
+            }
+            to{
+                transform: scale(1.05);
             }
         }
     }
