@@ -1,0 +1,1043 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital@1&family=Source+Sans+Pro:ital,wght@1,300&display=swap");
+header {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0.5%;
+}
+header .logo {
+  width: 7%;
+}
+header .logo a {
+  display: flex;
+}
+header .logo a img {
+  width: 100%;
+  height: 100%;
+}
+header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
+header ul .disney-list {
+  position: relative;
+}
+header ul #drop-list-disney {
+  background-color: rgb(41, 41, 41);
+  position: absolute;
+  z-index: 3;
+  top: 160%;
+  left: 0;
+  width: 13vw;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+header ul #drop-list-disney ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+header ul #drop-list-disney ul li {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+}
+header ul #drop-list-disney ul li a {
+  color: white;
+  display: flex;
+  padding: 6% 0;
+  font-size: 0.8vw;
+}
+header ul #drop-list-disney ul li:hover a {
+  color: #0077da;
+  transition: 0.5s;
+}
+header ul li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+header ul li a {
+  text-decoration: none;
+  font-size: 0.9vw;
+  font-weight: bold;
+  color: black;
+}
+header ul li a:hover {
+  color: #0077da;
+  transition: 0.5s;
+}
+header ul .filme-list {
+  position: relative;
+}
+header ul #drop-list-filme {
+  background-color: rgb(41, 41, 41);
+  position: absolute;
+  z-index: 3;
+  top: 160%;
+  left: 0;
+  width: 13vw;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+header ul #drop-list-filme ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+header ul #drop-list-filme ul li {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+}
+header ul #drop-list-filme ul li a {
+  color: white;
+  display: flex;
+  padding: 6% 0;
+  font-size: 0.8vw;
+}
+header ul #drop-list-filme ul li:hover a {
+  color: #0077da;
+  transition: 0.5s;
+}
+header ul .parks-list {
+  position: relative;
+}
+header ul #drop-list-parks {
+  background-color: rgb(41, 41, 41);
+  position: absolute;
+  z-index: 3;
+  top: 160%;
+  left: 0;
+  width: 13vw;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+header ul #drop-list-parks ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+header ul #drop-list-parks ul li {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+}
+header ul #drop-list-parks ul li a {
+  color: white;
+  display: flex;
+  padding: 6% 0;
+  font-size: 0.8vw;
+}
+header ul #drop-list-parks ul li:hover a {
+  color: #0077da;
+  transition: 0.5s;
+}
+header .mobile-menu {
+  display: none;
+}
+
+main {
+  width: 85%;
+  margin: 0 auto;
+  background-color: rgb(240, 240, 240);
+}
+main .baner {
+  position: relative;
+  overflow: hidden;
+}
+main .baner .baner-img .baner-desktop {
+  display: flex;
+}
+main .baner .baner-img .baner-desktop img {
+  width: 100%;
+  transition: 0.5s;
+}
+main .baner .baner-img .baner-desktop img:hover {
+  transform: scale(1.05);
+}
+main .baner .baner-img .baner-mobile {
+  display: none;
+}
+main .baner .baner-text {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .baner .baner-text a {
+  display: flex;
+  justify-content: center;
+}
+main .baner .baner-text a img {
+  width: 60%;
+  height: 100%;
+}
+main .baner .baner-text p {
+  font-size: 0.9vw;
+  color: white;
+  margin: 2% 0;
+}
+main .baner .baner-text button {
+  background-color: #0077da;
+  border: none;
+  outline: none;
+  color: white;
+  width: 30%;
+  padding: 2% 0;
+  font-size: 0.9vw;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .card-p1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 5%;
+}
+main .card-p1 div {
+  width: 49%;
+}
+main .card-p1 div a {
+  display: flex;
+}
+main .card-p1 div a img {
+  width: 100%;
+  height: 100%;
+}
+main .card-p1 div span {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1% 3%;
+  background-color: white;
+  height: 8vw;
+  overflow: hidden;
+}
+main .card-p1 div span p {
+  font-size: 0.9vw;
+}
+main .card-p1 div span small {
+  font-size: 0.8vw;
+  display: flex;
+}
+main .card-p1 div span small a {
+  color: black;
+  margin-left: 1%;
+}
+main .card-p1 div span .btn-p1 {
+  width: 20%;
+  color: black;
+  font-size: 0.7vw;
+  font-weight: bold;
+}
+main .neu-auf-disney {
+  padding: 2% 4%;
+  background-color: #030c40;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .neu-auf-disney .neu-auf-disney-title {
+  text-align: center;
+  font-size: 1.5vw;
+  color: white;
+  margin-bottom: 2%;
+}
+main .neu-auf-disney .three-divs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .neu-auf-disney .three-divs div {
+  width: 23%;
+}
+main .neu-auf-disney .three-divs div a {
+  display: flex;
+}
+main .neu-auf-disney .three-divs div a img {
+  width: 100%;
+  height: 100%;
+}
+main .neu-auf-disney .three-divs div:nth-child(3) {
+  width: 47%;
+  margin: 0;
+}
+main .neu-auf-disney .three-divs div:nth-child(3) span {
+  padding: 0% 3%;
+}
+main .neu-auf-disney .three-divs div span {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  height: 10vw;
+  padding: 1% 3%;
+  overflow: hidden;
+}
+main .neu-auf-disney .three-divs div span p {
+  font-size: 0.9vw;
+}
+main .neu-auf-disney .three-divs div span small {
+  font-size: 0.8vw;
+}
+main .neu-auf-disney .three-divs div span a {
+  width: 20%;
+  color: black;
+  font-size: 0.7vw;
+  font-weight: bold;
+  text-decoration: none;
+}
+main .neu-auf-disney .brands {
+  display: flex;
+  width: 60%;
+  margin: 3% 0;
+}
+main .neu-auf-disney .brands img {
+  width: 100%;
+  height: 100%;
+}
+main .neu-auf-disney button {
+  background-color: #0077da;
+  border: none;
+  outline: none;
+  color: white;
+  width: 20%;
+  padding: 1% 0;
+  font-size: 0.9vw;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3% 0;
+}
+main .neu-auf-disney h3 {
+  color: white;
+  font-size: 0.7vw;
+}
+main .shop {
+  padding: 2% 5%;
+}
+main .shop .shop-title {
+  text-align: center;
+  font-size: 1.5vw;
+  color: black;
+  margin-bottom: 2%;
+}
+main .shop .img-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+main .shop .img-container .shop-img {
+  display: flex;
+  width: 100%;
+}
+main .shop .img-container .shop-img .shop-mobile {
+  display: none;
+}
+main .shop .img-container .shop-img .shop-disktop {
+  display: flex;
+  width: 100%;
+}
+main .shop .img-container .shop-img .shop-disktop img {
+  width: 100%;
+  transition: 0.5s;
+}
+main .shop .img-container .shop-img .shop-disktop img:hover {
+  transform: scale(1.05);
+}
+main .shop .img-container .shop-text {
+  width: 40%;
+  height: 100%;
+  padding-left: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+main .shop .img-container .shop-text a {
+  display: flex;
+  width: 50%;
+}
+main .shop .img-container .shop-text a img {
+  width: 100%;
+  height: 100%;
+}
+main .shop .img-container .shop-text p {
+  font-size: 0.9vw;
+  margin: 3% 0;
+}
+main .shop .img-container .shop-text a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 0.8vw;
+}
+main .filme {
+  padding: 2% 5%;
+}
+main .filme p {
+  font-size: 1.5vw;
+  text-align: center;
+}
+main .filme .filme-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+}
+main .filme .filme-images .img {
+  width: 49%;
+  height: 22vw;
+  overflow: hidden;
+}
+main .filme .filme-images .img div {
+  overflow: hidden;
+}
+main .filme .filme-images .img div a {
+  display: flex;
+}
+main .filme .filme-images .img div a img {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+main .filme .filme-images .img div a img:hover {
+  transform: scale(1.05);
+}
+main .filme .filme-images .img p {
+  font-size: 0.9vw;
+  margin-top: 3%;
+  text-align: left;
+}
+main .live-shows {
+  padding: 2% 5%;
+}
+main .live-shows .live-shows-title {
+  font-size: 1.3vw;
+  text-align: center;
+  margin: 2% 0;
+}
+main .live-shows .images-container {
+  display: flex;
+  justify-content: space-between;
+}
+main .live-shows .images-container .left {
+  position: relative;
+  width: 49%;
+}
+main .live-shows .images-container .left .left-img {
+  height: 100%;
+  overflow: hidden;
+}
+main .live-shows .images-container .left .left-img a {
+  display: flex;
+  height: 100%;
+}
+main .live-shows .images-container .left .left-img a img {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+main .live-shows .images-container .left .left-img a img:hover {
+  transform: scale(1.05);
+}
+main .live-shows .images-container .left .left-text {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding: 6%;
+}
+main .live-shows .images-container .left .left-text a {
+  display: flex;
+  justify-content: center;
+}
+main .live-shows .images-container .left .left-text a img {
+  width: 60%;
+}
+main .live-shows .images-container .left .left-text h3 {
+  font-size: 0.9vw;
+  color: white;
+}
+main .live-shows .images-container .right {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1vw 0;
+}
+main .live-shows .images-container .right .right-up {
+  position: relative;
+}
+main .live-shows .images-container .right .right-up .right-up-img {
+  overflow: hidden;
+}
+main .live-shows .images-container .right .right-up .right-up-img a {
+  display: flex;
+}
+main .live-shows .images-container .right .right-up .right-up-img a img {
+  width: 100%;
+  transition: 0.5s;
+}
+main .live-shows .images-container .right .right-up .right-up-img a img:hover {
+  transform: scale(1.05);
+}
+main .live-shows .images-container .right .right-up .right-up-text {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  padding-right: 5%;
+  text-align: right;
+}
+main .live-shows .images-container .right .right-up .right-up-text p {
+  color: white;
+  font-size: 1.3vw;
+  margin-bottom: 4%;
+}
+main .live-shows .images-container .right .right-up .right-up-text h3 {
+  color: white;
+  font-size: 0.9vw;
+}
+main .live-shows .images-container .right .right-bottom {
+  position: relative;
+}
+main .live-shows .images-container .right .right-bottom .right-bottom-img {
+  overflow: hidden;
+}
+main .live-shows .images-container .right .right-bottom .right-bottom-img a {
+  display: flex;
+}
+main .live-shows .images-container .right .right-bottom .right-bottom-img a img {
+  width: 100%;
+  transition: 0.5s;
+}
+main .live-shows .images-container .right .right-bottom .right-bottom-img a img:hover {
+  transform: scale(1.05);
+}
+main .live-shows .images-container .right .right-bottom .right-bottom-text {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  padding-left: 5%;
+  text-align: left;
+}
+main .live-shows .images-container .right .right-bottom .right-bottom-text p {
+  color: white;
+  font-size: 1.3vw;
+  margin-bottom: 4%;
+}
+main .live-shows .images-container .right .right-bottom .right-bottom-text h3 {
+  color: white;
+  font-size: 0.9vw;
+}
+main .parks {
+  padding: 2% 5%;
+}
+main .parks .parks-title {
+  text-align: center;
+  font-size: 1.3vw;
+  margin: 2% 0;
+}
+main .parks .parks-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .parks .parks-container div {
+  width: 49%;
+}
+main .parks .parks-container div .park-img {
+  width: 100%;
+  overflow: hidden;
+}
+main .parks .parks-container div .park-img a {
+  display: flex;
+}
+main .parks .parks-container div .park-img a img {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+main .parks .parks-container div .park-img a img:hover {
+  transform: scale(1.05);
+}
+main .parks .parks-container div .park-text {
+  padding: 2%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+main .parks .parks-container div .park-text p {
+  font-size: 1.1vw;
+}
+main .parks .parks-container div .park-text small {
+  font-size: 0.9vw;
+  margin: 2% 0;
+}
+main .parks .parks-container div .park-text h3 {
+  font-size: 0.8vw;
+}
+main #hamburger {
+  display: none;
+}
+
+main footer {
+  width: 85%;
+  margin: 0 auto;
+}
+main footer .register {
+  background-color: #0077da;
+}
+main footer .register a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  text-decoration: none;
+  color: white;
+  font-size: 0.9vw;
+}
+main footer .register a i {
+  margin-left: 2%;
+}
+main footer .footer-part {
+  padding: 4% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw 0;
+}
+main footer .footer-part p {
+  font-size: 1.1vw;
+}
+main footer .footer-part .links {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main footer .footer-part .links i {
+  font-size: 1.1vw;
+  color: black;
+}
+main footer .footer-part .footer-logo {
+  display: flex;
+  width: 8%;
+}
+main footer .footer-part .footer-logo img {
+  width: 100%;
+}
+main footer .footer-part .infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+main footer .footer-part .infos a {
+  font-size: 0.6vw;
+  text-decoration: none;
+  color: black;
+}
+main footer .footer-part small {
+  font-size: 0.9vw;
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    background-color: rgba(255, 255, 255, 0.829);
+  }
+  header .logo {
+    width: 20%;
+  }
+  header ul {
+    display: none;
+  }
+  header .mobile-menu {
+    display: block;
+    width: 15%;
+  }
+  header .mobile-menu a {
+    display: flex;
+    justify-content: flex-end;
+  }
+  header .mobile-menu a i {
+    font-size: 7vw;
+  }
+
+  main {
+    width: 100%;
+    position: relative;
+  }
+  main .baner {
+    background-color: #030c40;
+  }
+  main .baner .baner-img .baner-desktop {
+    display: none;
+  }
+  main .baner .baner-img .baner-mobile {
+    display: block;
+    width: 100%;
+  }
+  main .baner .baner-img .baner-mobile img {
+    width: 100%;
+    animation: baner 2s alternate infinite ease-in-out;
+  }
+  main .baner .baner-text {
+    position: static;
+    width: 100%;
+    padding: 10% 0;
+  }
+  main .baner .baner-text a img {
+    width: 100%;
+  }
+  main .baner .baner-text p {
+    font-size: 4vw;
+  }
+  main .baner .baner-text button {
+    font-size: 3.2vw;
+    width: 50%;
+  }
+  main .card-p1 {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  main .card-p1 div {
+    width: 100%;
+  }
+  main .card-p1 div span {
+    height: auto;
+    gap: 5vw 0;
+  }
+  main .card-p1 div span p {
+    font-size: 4vw;
+    text-align: center;
+  }
+  main .card-p1 div span small {
+    font-size: 3.4vw;
+    justify-content: center;
+    text-align: center;
+  }
+  main .card-p1 div span .btn-p1 {
+    width: 100%;
+    font-size: 3.4vw;
+    display: flex;
+    justify-content: center;
+  }
+  main .neu-auf-disney {
+    padding: 2% 0;
+  }
+  main .neu-auf-disney .neu-auf-disney-title {
+    font-size: 5vw;
+    font-weight: bold;
+    padding: 3% 0;
+  }
+  main .neu-auf-disney .three-divs {
+    flex-wrap: wrap;
+  }
+  main .neu-auf-disney .three-divs div {
+    width: 100%;
+  }
+  main .neu-auf-disney .three-divs div:nth-child(3) {
+    width: 100%;
+  }
+  main .neu-auf-disney .three-divs div span {
+    align-items: center;
+    height: auto;
+    gap: 5vw 0;
+    padding: 3%;
+  }
+  main .neu-auf-disney .three-divs div span p {
+    font-size: 4vw;
+  }
+  main .neu-auf-disney .three-divs div span small {
+    font-size: 3.4vw;
+    text-align: center;
+  }
+  main .neu-auf-disney .three-divs div span a {
+    width: 100%;
+    font-size: 3.4vw;
+    display: flex;
+    justify-content: center;
+  }
+  main .neu-auf-disney .brands {
+    width: 100%;
+    margin: 5% 0;
+  }
+  main .neu-auf-disney button {
+    width: 50%;
+    font-size: 3.2vw;
+    padding: 2% 0;
+  }
+  main .neu-auf-disney h3 {
+    font-size: 2.7vw;
+  }
+  main .shop {
+    padding: 2% 0;
+  }
+  main .shop .shop-title {
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  main .shop .img-container {
+    position: static;
+  }
+  main .shop .img-container .shop-img .shop-disktop {
+    display: none;
+  }
+  main .shop .img-container .shop-img .shop-mobile {
+    display: block;
+    width: 100%;
+  }
+  main .shop .img-container .shop-img .shop-mobile img {
+    width: 100%;
+    transition: 0.5s;
+    animation: baner 2s alternate infinite ease-in-out;
+  }
+  main .shop .img-container .shop-img .shop-mobile img:hover {
+    transform: scale(1.05);
+  }
+  main .shop .img-container .shop-text {
+    width: 100%;
+    position: static;
+    align-items: center;
+    background-color: white;
+    padding: 2%;
+  }
+  main .shop .img-container .shop-text a {
+    width: 80%;
+  }
+  main .shop .img-container .shop-text p {
+    font-size: 4vw;
+    text-align: center;
+  }
+  main .shop .img-container .shop-text a {
+    font-size: 3.5vw;
+    display: flex;
+    justify-content: center;
+  }
+  main .filme {
+    padding: 2% 0;
+  }
+  main .filme p {
+    font-size: 5vw;
+    font-weight: bold;
+    margin: 4% 0;
+  }
+  main .filme .filme-images {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  main .filme .filme-images .img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  main .filme .filme-images .img div a img {
+    animation: baner 2s alternate infinite ease-in-out;
+  }
+  main .filme .filme-images .img p {
+    font-size: 4vw;
+    text-align: center;
+    font-weight: lighter;
+  }
+  main .live-shows {
+    padding: 2% 0;
+  }
+  main .live-shows .live-shows-title {
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  main .live-shows .images-container {
+    flex-wrap: wrap;
+  }
+  main .live-shows .images-container .left {
+    width: 100%;
+    margin-bottom: 1%;
+  }
+  main .live-shows .images-container .left .left-img a img {
+    animation: baner 2s alternate infinite ease-in-out;
+  }
+  main .live-shows .images-container .left .left-text a img {
+    width: 100%;
+  }
+  main .live-shows .images-container .left .left-text h3 {
+    font-size: 4vw;
+  }
+  main .live-shows .images-container .right {
+    width: 100%;
+    gap: 0;
+  }
+  main .live-shows .images-container .right .right-up {
+    margin-bottom: 1%;
+  }
+  main .live-shows .images-container .right .right-up .right-up-img a img {
+    animation: baner 2s alternate infinite ease-in-out;
+  }
+  main .live-shows .images-container .right .right-up .right-up-text p {
+    font-size: 4.5vw;
+  }
+  main .live-shows .images-container .right .right-up .right-up-text h3 {
+    font-size: 4vw;
+  }
+  main .live-shows .images-container .right .right-bottom .right-bottom-img a img {
+    animation: baner 2s alternate infinite ease-in-out;
+  }
+  main .live-shows .images-container .right .right-bottom .right-bottom-text p {
+    font-size: 4.5vw;
+  }
+  main .live-shows .images-container .right .right-bottom .right-bottom-text h3 {
+    font-size: 4vw;
+  }
+  main .parks {
+    padding: 2% 0;
+  }
+  main .parks .parks-title {
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  main .parks .parks-container {
+    flex-wrap: wrap;
+  }
+  main .parks .parks-container div {
+    width: 100%;
+  }
+  main .parks .parks-container div .park-img a img {
+    animation: baner 2s alternate infinite ease-in-out;
+  }
+  main .parks .parks-container div .park-text {
+    align-items: center;
+  }
+  main .parks .parks-container div .park-text p {
+    font-size: 4vw;
+  }
+  main .parks .parks-container div .park-text small {
+    font-size: 3.4vw;
+  }
+  main .parks .parks-container div .park-text h3 {
+    font-size: 3.4vw;
+  }
+  main #hamburger {
+    position: absolute;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 13% 4% 4% 4%;
+    overflow: scroll;
+    animation: hamburgerAnimation 2s forwards;
+  }
+  main #hamburger ul {
+    display: flex;
+    flex-direction: column;
+  }
+  main #hamburger ul li {
+    list-style: none;
+  }
+  main #hamburger ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5%;
+    font-weight: bold;
+    font-size: 5vw;
+  }
+  main footer {
+    width: 100%;
+  }
+  main footer .register a {
+    font-size: 3vw;
+    padding: 3% 1%;
+  }
+  main footer .footer-part {
+    gap: 3vw 0;
+  }
+  main footer .footer-part p {
+    font-size: 3vw;
+  }
+  main footer .footer-part .links {
+    width: 30%;
+  }
+  main footer .footer-part .links i {
+    font-size: 3vw;
+  }
+  main footer .footer-part .footer-logo {
+    width: 20%;
+  }
+  main footer .footer-part .infos {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3%;
+  }
+  main footer .footer-part .infos a {
+    display: flex;
+    margin-bottom: 3%;
+    font-size: 3vw;
+  }
+  main footer .footer-part small {
+    font-size: 2vw;
+  }
+  @keyframes baner {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.05);
+    }
+  }
+  @keyframes hamburgerAnimation {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/*# sourceMappingURL=main.css.map */

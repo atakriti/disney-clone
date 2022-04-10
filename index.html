@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Disney-Clone</title>
+</head>
+<body onclick="main()">
+   <header>
+    <div class="logo">
+        <a href="#"><img src="./images/logo.png" alt=""></a>
+    </div>
+    <div onclick="menu()" class="mobile-menu"><a ><i class="fa-solid fa-bars-staggered"></i></a></div>
+     <ul>
+         <li onclick="disney()" class="disney-list"><a href="#">DISNEY+</a>
+        <div id="drop-list-disney">
+            <ul>
+            <li> <a href="#">Mehr Informationen</a>  </li>
+            <li><a href="#">Wir stellen vor:Disney+</a></li>
+            <li><a href="#">Aktuelle Highlights auf Disney+</a></li>
+            <li><a href="#">Marvel auf Disney+</a></li>
+            </ul>
+        </div>
+        </li>
+         <li><a href="#">SHOP</a></li>
+         <li onclick="disneyFilme()" class="filme-list"><a href="#">FILME</a>
+        <div id="drop-list-filme">
+            <ul>
+                <li><a href="#">Übersicht</a></li>
+                <li><a href="#">Lightyear</a></li>
+                <li><a href="#">Rot</a></li>
+                <li><a href="#">Filme von Marvel</a></li>
+            </ul>
+        </div>
+    </li>
+         <li onclick="disneyParks()" class="parks-list"><a href="#">PARKS</a>
+        <div id="drop-list-parks">
+            <ul>
+                <li><a href="#">Disneyland® PARIS</a></li>
+                <li><a href="#">Walt Disney World</a></li>
+            </ul>
+        </div>
+        </li>
+         <li><a href="#">TV SENDER</a></li>
+     </ul>
+     
+   </header>
+   <main>
+       <!-- ================== Hamburger =============== -->
+       <div id="hamburger">
+           <ul>
+               <li><a onclick="hamburgerList()" href="#neu">Neu auf Disney</a></li>
+               <li><a onclick="hamburgerList()" href="#shop">Shop</a></li>
+               <li><a onclick="hamburgerList()" href="#filme">Filme</a></li>
+               <li><a onclick="hamburgerList()" href="#live">Live-Show</a></li>
+               <li><a onclick="hamburgerList()" href="#parks">Parks</a></li>
+               <li><a onclick="hamburgerList()" href="#about">About Us</a></li>
+           </ul>
+       </div>
+       <!-- ============ BANER ============ -->
+       <div class="baner">
+           <div class="baner-img">
+               <a class="baner-desktop" href="#"><img src="./images/baner.jpeg" alt=""></a>
+               <a class="baner-mobile" href="#"><img src="./images/mobile/baner.jpeg" alt=""></a>
+           </div>
+          <div class="baner-text">
+               <a><img src="./images/baner-text.webp" alt=""></a>
+               <p>Jetzt auf Disney+ streamen</p>
+               <button>JETZT ANMELDEN*</button>
+          </div>
+       </div>
+       <!-- ================= two cards part 1=========== -->
+       <div class="card-p1">
+           <!-- one -->
+           <div>
+               <a><img src="./images/starwars.jpeg" alt=""></a>
+               <span>
+                   <p>LEGO Star Wars: Die Skywalker Saga</p>
+                   <small>Jetzt erhältlich von <a href="#">Warner Bros. Games</a></small>
+                   <a class="btn-p1">SHOP</a>
+               </span>
+           </div>
+           <!-- two -->
+           <div>
+            <a><img src="./images/buzz.webp" alt=""></a>
+            <span>
+                <p>20% Rabatt auf ausgewähltes Spielzeug</p>
+                <small>Ausgewählte Kollektionen. Nur solange der Vorrat reicht. Es gelten die allgemeinen Geschäftsbedingungen.</small>
+                <a class="btn-p1">SHOP</a>
+            </span>
+           </div>
+       </div>
+       <!-- ================= Neu auf Disney =========== -->
+       <div id="neu" class="neu-auf-disney">
+           <p class="neu-auf-disney-title">–– Neu auf Disney+ ––</p>
+           <div class="three-divs">
+               <!-- one -->
+               <div>
+                   <a><img src="./images/1.webp" alt=""></a>
+                   <span>
+                       <p>Bühne frei für Nate!</p>
+                       <small>Ein Junge mit Broadway-Träumen reist für ein einmaliges Abenteuer nach New York City.</small>
+                       <a href="#">DISNEY+</a>
+                   </span>
+               </div>
+               <!-- two -->
+               <div>
+                   <a><img src="./images/2.webp" alt=""></a>
+                   <span>
+                       <p>Aktuelle Highlights auf Disney+</p>
+                       <small>Ein neuer Monat erwartet dich - und mit ihm eine wahre Fundgrube an neuen Filmen, TV-Serien und Originals, die es auf Disney+ zu entdecken gilt.</small>
+                       <a href="">DISNEY+</a>
+                   </span>
+               </div>
+               <!-- three -->
+               <div>
+                   <a><img src="./images/3.webp" alt=""></a>
+                   <span>
+                       <p>In 80 Tagen um die Welt</p>
+                       <small>Passepartout, ein lebhaftes Seidenäffchen, hat schon immer davon geträumt, auf Abenteuer zu gehen.</small>
+                       <a href="#">DISNEY+</a>
+                   </span>
+               </div>
+           </div>
+           <a class="brands" href="#"><img src="./images/brands.webp" alt=""></a>
+           <button>JETZT ANMELDEN*</button>
+           <h3>* EUR 8,99 pro Monat bzw. EUR 89,90 pro Jahr.</h3>
+       </div>
+       <!-- =========SHOP =========== -->
+       <div id="shop" class="shop">
+        <p class="shop-title">–– Shop ––</p>
+           
+               <div class="img-container">
+                   <div class="shop-img">
+                       <a class="shop-disktop" href=""><img src="./images/shop.webp" alt=""></a>
+                       <a class="shop-mobile" href=""><img src="./images/mobile/shop.jpeg" alt=""></a>
+                   </div>
+                   <div class="shop-text">
+                    <a><img src="./images/shop-disney_medium.webp" alt=""></a>
+                    <p>Das Beste von Disney, Pixar, Star Wars und Marvel an einem Ort</p>
+                    <a href="">ZUM SHOP</a>
+                   
+               </div>
+           
+       </div>
+       </div>
+       <!-- =============== filme ============= -->
+       <div id="filme" class="filme">
+           <p>–– Filme ––</p>
+           <div class="filme-images">
+               <div class="img">
+                   <div>
+                       <a href="#"><img src="./images/filme1.webp" alt=""></a>
+                   </div>
+            <p>Doctor Strange in the Multiverse of Madness</p>
+            </div>
+               <div class="img">
+                   <div>
+                       <a href="#"><img src="./images/filme2.webp" alt=""></a>
+                   </div>
+                <p>Lightyear</p>
+            </div>
+           </div>
+       </div>
+       <!-- ============ Live Shows =========== -->
+       <div id="live" class="live-shows">
+           <p class="live-shows-title">–– Live Shows ––</p>
+           <div class="images-container">
+               <!-- left -->
+               <div class="left">
+                   <div class="left-img"><a href="#"><img src="./images/ice.webp" alt=""></a></div>
+                   <div class="left-text"><a href="#"><img src="./images/ice-text.webp" alt=""></a>
+                <h3>ZU DEN TICKETS</h3>
+                </div>
+               </div>
+               <!-- right -->
+               <div class="right">
+                   <!-- up -->
+                   <div class="right-up">
+                    <div class="right-up-img"><a href="#"><img src="./images/king.webp" alt=""></a></div>
+                    <div class="right-up-text">
+                        <p>Der König der Löwen</p>
+                    <h3>ZU DEN TICKETS</h3>
+                    </div>
+                   </div>
+                   <!-- bottom -->
+                   <div class="right-bottom">
+                       <div class="right-bottom-img"><a href="#"><img src="./images/aladdin.webp" alt=""></a></div>
+                       <div class="right-bottom-text">
+                        <p>Aladdin-Das Musical</p>
+                        <h3>TICKETS FÜR STUTTGART</h3>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <!-- ============== PARKS ================== -->
+       <div id="parks" class="parks">
+           <p class="parks-title">–– Parks ––</p>
+           <div class="parks-container">
+               <!-- left -->
+               <div>
+                <div class="park-img">
+                    <a href="#"><img src="./images/mickey.webp" alt=""></a>
+                </div>
+                <div class="park-text">
+                    <p>30 Jahre!</p>
+                    <small>Mehr Zauber als jemals zuvor.Jetzt buchen</small>
+                    <h3>DISNEYLAND® PARIS</h3>
+                </div>
+               </div>
+               <!-- right -->
+               <div>
+                <div class="park-img">
+                    <a href="#"><img src="./images/promo.webp" alt=""></a>
+                </div>
+                <div class="park-text">
+                    <p>2022 Disney Park Tickets</p>
+                    <small>Feiern Sie das 50.Jubiläum in Walt Disney World mit!</small>
+                    <h3>WALT DISNEY WOLRD</h3>
+                </div>
+               </div>
+           </div>
+       </div>
+       <!-- ====================== FOOTER ==================== -->
+   <footer id="about">
+    <div class="register">
+        <a href="#">Registriere dich hier und werde teil der Disney Familie <i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <!-- ================= footer-part ================ -->
+    <div class="footer-part">
+        <p>Folge Disney auf:</p>
+        <div class="links">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+     </div>
+     <a class="footer-logo" href="#"><img src="./images/logo.png" alt=""></a>
+     <div class="infos">
+         <a href="#">Hilfe</a>
+         <a href="#">Seitenverzeichnis</a>
+         <a href="#">Nutzungsbedigungen</a>
+         <a href="#">EU Datenschutzhinweis</a>
+         <a href="#">Datenschutzerklärung</a>
+         <a href="#">Cookie Richtlinie</a>
+         <a href="#">Ihre Cookie Einstellungen verwalten</a>
+         <a href="#">Interessenbezogene Werbung</a>
+         <a href="#">Impressum</a>
+         <a href="#">Disney Media Sales and Partnerships</a>
+         <a href="#">The Walt Disney Company</a>
+     </div>
+     <small>
+         © Disney © Disney•Pixar © & ™ Lucasfilm LTD © Marvel. Alle Rechte vorbehalten
+     </small>
+    </div>
+</footer>
+   </main>
+   
+   <script src="./javaScript/main.js"></script>
+</body>
+</html>
