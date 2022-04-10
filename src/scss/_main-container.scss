@@ -4,17 +4,15 @@ main{
     background-color: $gray-light;
     // =======================BANER ====================
     .baner{
-       
-        height: 30vw;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        position: relative;
         overflow: hidden;
+        
         .baner-img{
-            height:8vw;
-            a{
+            // height:8vw;
+            .baner-desktop{
+                display: flex;
                 img{
-                height:30vw;
+                // height:30vw;
                 width: 100%;
                 transition: 0.5s;
                 &:hover{
@@ -22,15 +20,21 @@ main{
                 }
                 }                
             }
+            .baner-mobile{
+                display: none;
+            }
         }
         .baner-text{
             width: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            position: relative;
-            z-index: 2;
+            
             a{
                 display: flex;
                 justify-content: center;
@@ -199,7 +203,6 @@ main{
     }
     // ============ SHOP ==============
     .shop{
-        // background-color:$gray-light ;
         padding: 2% 5%;
 
         
@@ -216,10 +219,9 @@ main{
                 overflow: hidden;
                 display: flex;
                 flex-direction: column;
+                position: relative;
                 .shop-img{
-                   position: relative;
-                   z-index: 1;
-                   height: 10vw;
+                  
                    display: flex;
                    width: 100%;
                    
@@ -230,7 +232,6 @@ main{
                         img{
                             width: 100%;
                             transition: 0.5s;
-                         height: 27vw;
 
                             &:hover{
                                 transform: scale(1.05);
@@ -247,11 +248,12 @@ main{
                     padding-left: 6%;
                     display: flex;
                     flex-direction: column;
-                    // align-items: center;
                     justify-content: center;
-                    position: relative;
-                    z-index:1;
-                     margin-bottom: 10%;
+                   position: absolute;
+                   top: 0;
+                   left: 0;
+                   bottom: 0;
+                     
                     
                     a{
                         display: flex;
