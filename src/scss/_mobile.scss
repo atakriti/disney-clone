@@ -250,7 +250,7 @@
                 flex-wrap: wrap;
                 .left{
                     width: 100%;
-                    margin-bottom: 1%;
+                    margin-bottom: 2%;
                     .left-img{
                         a{
                             img{
@@ -271,9 +271,9 @@
                 }
                 .right{
                     width: 100%;
-                    gap: 0;
+                
                     .right-up{
-                        margin-bottom: 1%;
+                        margin-bottom: 2%;
                         .right-up-img{
                             a{
                                 img{
@@ -389,12 +389,13 @@
             }
         }
         .footer-part{
-            gap: 3vw 0;
+            
             p{
                 font-size: calc($mo-fs - 1vw);
             }
             .links{
                 width: 30%;
+                margin: 4% 0;
                 i{
                     font-size: calc($mo-fs - 1vw);
                 }
@@ -405,13 +406,14 @@
             .infos{
                 flex-wrap: wrap;
                 justify-content: center;
-                gap: 3%;
+                
 
                 a{
                     display: flex;
                     // width: 30%;
-                    margin-bottom: 3%;
+                    // margin-bottom: 3%;
                     font-size: calc($mo-fs - 1vw);
+                    margin: 2%;
                 }
             }
             small{
