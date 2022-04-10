@@ -6,7 +6,6 @@ main{
     .baner{
         position: relative;
         overflow: hidden;
-        
         .baner-img{
             // height:8vw;
             .baner-desktop{
@@ -224,6 +223,9 @@ main{
                   
                    display: flex;
                    width: 100%;
+                   .shop-mobile{
+                       display: none;
+                   }
                    
                     a{
                         display: flex;

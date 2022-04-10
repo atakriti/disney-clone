@@ -28,16 +28,299 @@
     main{
         width: 100%;
         .baner{
-            height: auto;
+            background-color: #030c40;
+
             .baner-img{
-                height: 60vw;
                 .baner-desktop{
                     display: none;
                 }
                 .baner-mobile{
                     display: block;
                     width: 100%;
+                    img{
+                        width: 100%;
+                    }
+
                 }
+            }
+            .baner-text{
+                position: static;
+                width: 100%;
+                padding: 10% 0;
+                a{
+                    img{
+                        width: 100%;
+                    }
+                }
+                p{
+                    font-size: $mo-fs;
+                }
+                button{
+                    font-size: calc($mo-fs - 0.8vw);
+                    width: 50%;
+                }
+
+            }
+            
+        }
+        // ================ two cards =============
+        .card-p1{
+            flex-wrap: wrap;
+            padding: 0;
+            div{
+                width: 100%;
+                
+                span{
+                    height: auto;
+                    gap: 5vw 0;
+                    
+                    p{
+                        font-size: $mo-fs;
+                        text-align: center;
+                    }
+                    small{
+                        font-size: calc($mo-fs - 0.6vw);
+                        justify-content: center;
+                       text-align: center;
+                    }
+                    .btn-p1{
+                        width: 100%;
+                        font-size: calc($mo-fs - 0.6vw);
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+        // ============== Neu auf disney ===============
+        .neu-auf-disney{
+            padding: 2% 0;
+            .neu-auf-disney-title{
+                font-size: calc($mo-fs + 1vw);
+                font-weight: bold;
+            }
+            .three-divs{
+                flex-wrap: wrap;
+                div{
+                    width: 100%;
+                    &:nth-child(3){
+                        width: 100%;
+                    }
+                    span{
+                        align-items: center;
+                        height: auto;
+                    gap: 5vw 0;
+                    padding: 3%;
+
+                        p{
+                            font-size: $mo-fs;
+                        }
+                        small{
+                            font-size: calc($mo-fs - 0.6vw);
+                            text-align: center;
+                        }
+                        a{
+                            width: 100%;
+                            font-size: calc($mo-fs - 0.6vw);
+                            display: flex;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+            // =============== brands ===============
+            .brands{
+                width: 100%;
+                margin: 5% 0;
+            }
+            button{
+                width: 50%;
+                font-size: calc($mo-fs - 0.8vw);
+                padding: 2% 0;
+            }
+            h3{
+                font-size: calc($mo-fs - 1.3vw);
+            }
+        }
+        // ============ shop =============
+        .shop{
+            padding: 2% 0;
+            .shop-title{
+                font-size: calc($mo-fs + 1vw);
+                font-weight: bold;
+            }
+            .img-container{
+                position: static;
+                .shop-img{
+                    .shop-disktop{
+                        display: none;
+                    }
+                    .shop-mobile{
+                        display: block;
+                    }
+
+                }
+                .shop-text{
+                    width: 100%;
+                    position: static;
+                    align-items: center;
+                    background-color: white;
+                    padding: 2%;
+                    a{
+                        width: 100%;
+                    }
+                    p{
+                        font-size: $mo-fs;
+                        text-align: center;
+                    }
+                    a{
+                        font-size: calc($mo-fs - 0.5vw);
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+                
+            }
+
+        }
+        // ============== filme ============
+        .filme{
+            padding: 2% 0;
+            p{
+                font-size: calc($mo-fs + 1vw);
+                font-weight: bold;
+                margin: 4% 0;
+            }
+            .filme-images{
+                flex-wrap: wrap;
+                width: 100%;
+                .img{
+                    height: auto;
+                    width: 100%;
+                    margin-bottom: 5%;
+                    p{
+                        font-size: $mo-fs;
+                        text-align: center;
+                font-weight: lighter;
+
+                    }
+                }
+            }
+        }
+        // ============ Live shows =============
+        .live-shows{
+            padding: 2% 0;
+            .live-shows-title{
+                font-size: calc($mo-fs + 1vw);
+                font-weight: bold;
+            }
+            .images-container{
+                flex-wrap: wrap;
+                .left{
+                    width: 100%;
+                    margin-bottom: 1%;
+                    .left-text{
+                        a{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        h3{
+                            font-size: $mo-fs;
+                        }
+                    }
+                }
+                .right{
+                    width: 100%;
+                    gap: 0;
+                    .right-up{
+                        margin-bottom: 1%;
+                        .right-up-text{
+                            p{
+                                font-size: calc($mo-fs + 0.5vw);
+                            }
+                            h3{
+                                font-size: $mo-fs;
+                            }
+                        }
+                    }
+                    .right-bottom{
+                        .right-bottom-text{
+                            p{
+                                font-size: calc($mo-fs + 0.5vw);
+                            }
+                            h3{
+                                font-size: $mo-fs;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // ================== Parks =============
+        .parks{
+            padding: 2% 0;
+            .parks-title{
+                font-size: calc($mo-fs + 1vw);
+                font-weight: bold;
+            }
+            .parks-container{
+                flex-wrap: wrap;
+                div{
+                    width: 100%;
+                    .park-text{
+                        align-items: center;
+                        p{
+                            font-size: $mo-fs;
+                        }
+                        small{
+                            font-size: calc($mo-fs - 0.6vw);
+                        }
+                        h3{
+                            font-size: calc($mo-fs - 0.6vw);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ================== footer ==========
+    footer{
+        width: 100%;
+        .register{
+            a{
+                font-size: calc($mo-fs - 1vw);
+                padding: 3% 1%;
+            }
+        }
+        .footer-part{
+            gap: 3vw 0;
+            p{
+                font-size: calc($mo-fs - 1vw);
+            }
+            .links{
+                width: 30%;
+                i{
+                    font-size: calc($mo-fs - 1vw);
+                }
+            }
+            .footer-logo{
+                width: 20%;
+            }
+            .infos{
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 3%;
+
+                a{
+                    display: flex;
+                    // width: 30%;
+                    margin-bottom: 3%;
+                    font-size: calc($mo-fs - 1vw);
+                }
+            }
+            small{
+                font-size: calc($mo-fs - 2vw);
             }
         }
     }
