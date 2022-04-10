@@ -44,7 +44,7 @@
                     width: 100%;
                     img{
                         width: 100%;
-                        animation: baner 2s alternate infinite ease-in-out;
+                        animation: baner 1s alternate infinite ease-in-out;
                     }
 
                 }
@@ -112,6 +112,10 @@
                     width: 100%;
                     &:nth-child(3){
                         width: 100%;
+                        span{
+                    padding: 3%;
+
+                        }
                     }
                     span{
                         align-items: center;
@@ -121,6 +125,8 @@
 
                         p{
                             font-size: $mo-fs;
+                            width: 100%;
+                            text-align: center;
                         }
                         small{
                             font-size: calc($mo-fs - 0.6vw);
@@ -169,7 +175,7 @@
                         img{
                             width: 100%;
                             transition: 0.5s;
-                            animation: baner 2s alternate infinite ease-in-out;
+                            animation: baner 1s alternate infinite ease-in-out;
 
 
                             &:hover{
@@ -220,7 +226,7 @@
                     div{
                         a{
                             img{
-                                animation: baner 2s alternate infinite ease-in-out;
+                                animation: baner 1s alternate infinite ease-in-out;
                             }
                         }
                     }
@@ -248,7 +254,7 @@
                     .left-img{
                         a{
                             img{
-                                animation: baner 2s alternate infinite ease-in-out;
+                                animation: baner 1s alternate infinite ease-in-out;
                             }
                         }
                     }
@@ -271,7 +277,7 @@
                         .right-up-img{
                             a{
                                 img{
-                                    animation: baner 2s alternate infinite ease-in-out;
+                                    animation: baner 1s alternate infinite ease-in-out;
                                 }
                             }
                         }
@@ -288,7 +294,7 @@
                         .right-bottom-img{
                             a{
                                 img{
-                                    animation: baner 2s alternate infinite ease-in-out;
+                                    animation: baner 1s alternate infinite ease-in-out;
                                 }
                             }
                         }
@@ -318,7 +324,7 @@
                     .park-img{
                         a{
                             img{
-                                animation: baner 2s alternate infinite ease-in-out;
+                                animation: baner 1s alternate infinite ease-in-out;
                             }
                         }
                     }
@@ -350,7 +356,7 @@
             background-color: rgba(0, 0, 0, 0.705);
             padding: 13% 4% 4% 4%;
             overflow: scroll;
-            animation: hamburgerAnimation 2s forwards;
+            animation: hamburgerAnimation 1s forwards;
             
             ul{
                 display: flex;
