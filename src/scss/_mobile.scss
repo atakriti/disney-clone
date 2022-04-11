@@ -36,14 +36,17 @@
             background-color: #030c40;
 
             .baner-img{
+                
                 .baner-desktop{
                     display: none;
                 }
                 .baner-mobile{
-                    display: block;
+                    display: flex;
+                    overflow: hidden;
                     width: 100%;
                     img{
                         width: 100%;
+                        
                         animation: baner 1s alternate infinite ease-in-out;
                     }
 
@@ -169,9 +172,9 @@
                         display: none;
                     }
                     .shop-mobile{
-                        display: block;
+                        display: flex;
                         width: 100%;
-
+                        overflow: hidden;
                         img{
                             width: 100%;
                             transition: 0.5s;
