@@ -714,7 +714,8 @@ main footer .footer-part small {
     display: none;
   }
   main .baner .baner-img .baner-mobile {
-    display: block;
+    display: flex;
+    overflow: hidden;
     width: 100%;
   }
   main .baner .baner-img .baner-mobile img {
@@ -829,8 +830,9 @@ main footer .footer-part small {
     display: none;
   }
   main .shop .img-container .shop-img .shop-mobile {
-    display: block;
+    display: flex;
     width: 100%;
+    overflow: hidden;
   }
   main .shop .img-container .shop-img .shop-mobile img {
     width: 100%;
