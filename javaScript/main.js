@@ -1,7 +1,11 @@
 let disney = () => {
+    let filmeList = document.getElementById("drop-list-filme")
     let disneyList = document.getElementById("drop-list-disney")
+    let parksList = document.getElementById("drop-list-parks")
     if (disneyList.style.display === "none") {
         disneyList.style.display = "block"
+        filmeList.style.display = "none"
+        parksList.style.display = "none"
     } else {
         disneyList.style.display = "none"
     }
@@ -17,9 +21,13 @@ let disney = () => {
 // }
 // ========= filme
 let disneyFilme = () => {
+    let disneyList = document.getElementById("drop-list-disney")
     let filmeList = document.getElementById("drop-list-filme")
+    let parksList = document.getElementById("drop-list-parks")
     if (filmeList.style.display === "none") {
         filmeList.style.display = "block"
+        disneyList.style.display = "none"
+        parksList.style.display = "none"
     } else {
         filmeList.style.display = "none"
     }
@@ -34,9 +42,10 @@ let disneyParks = () => {
     }
 }
 // =============== hamburger =================
+hamburger.style.display = "none"
 let menu = () => {
     let hamburger = document.getElementById("hamburger")
-    if (hamburger.style.display === "none") {
+    if (hamburger.style.display == "none") {
         hamburger.style.display = "block"
         // hamburger.style.transform = "translateX(0%)"
         hamburger.style.animationName = "hamburgerAnimation"
